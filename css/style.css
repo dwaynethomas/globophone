@@ -9,3 +9,25 @@ h2 {
   text-align: left;
 }
 
+#delete {
+    width: 40px;
+    height: 20px;
+    background: #ffb;
+    padding: 10px;
+    border: 2px solid #999;
+}
+
+#save {
+    width: 40px;
+    height: 20px;
+    background: #ffb;
+    padding: 10px;
+    border: 2px solid #999;
+}
+#back {
+    width: 60px;
+    height: 20px;
+    background: #ffb;
+    padding: 10px;
+    border: 2px solid #999;
+}
