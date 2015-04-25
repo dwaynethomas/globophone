@@ -15,3 +15,9 @@ Github for tracking changes.
 todo:
 style html's
 review basic markdown for readme
+
+get shareable link
+www.googledrive.com/host/0B0PVE1JTVFgOSkNyWDdSMkxPTW8/
+
+# feedback on exercise
+this link is most helpful: https://support.google.com/drive/answer/2881970?hl=en#
