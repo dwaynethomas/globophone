@@ -22,3 +22,7 @@ www.googledrive.com/host/0B0PVE1JTVFgORXV6SURCT2lzREU/
 
 # feedback on exercise
 this link is most helpful: https://support.google.com/drive/answer/2881970?hl=en#
+
+Styling
+http://www.epicodus.com/students.html
+http://www.w3schools.com/tags/tag_comment.asp
