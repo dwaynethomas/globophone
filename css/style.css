@@ -10,7 +10,7 @@ h2 {
 }
 
 h3 {
-    width: 45px;
+    width: 60px;
     height: 20px;
     background: #66CCCC;
     padding: 10px;
@@ -19,8 +19,24 @@ h3 {
 
 h4 {
     width: 60px;
-    height: 20px;
+    height: 40px;
     background: #66CCCC;
     padding: 10px;
     border: 2px solid #999;
+}
+
+* { font-family:Arial; }
+h5 { padding:0 0 5px 5px; }
+h5 a { color: #224f99; }
+a { color:#999; text-decoration: none; }
+a:hover { color:#802727; }
+p { padding:0 0 5px 0; }
+
+input { padding:5px; border:1px solid #999; 
+  border-radius:4px; -moz-border-radius:4px; 
+  -web-kit-border-radius:4px; -khtml-border-radius:4px; }
+
+h6 {
+  font-style: italic;
+  text-align: left;
 }

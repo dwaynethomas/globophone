@@ -23,6 +23,8 @@ www.googledrive.com/host/0B0PVE1JTVFgORXV6SURCT2lzREU/
 # feedback on exercise
 this link is most helpful: https://support.google.com/drive/answer/2881970?hl=en#
 
-Styling
-http://www.epicodus.com/students.html
-http://www.w3schools.com/tags/tag_comment.asp
+Sources:
+Organizing files. http://www.epicodus.com/students.html
+Commenting tags. http://www.w3schools.com/tags/tag_comment.asp
+Change font color to blue. http://www.december.com/html/spec/color3.html
+Add another input box. http://jsfiddle.net/jaredwilli/tZPg4/4/
