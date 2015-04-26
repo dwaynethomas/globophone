@@ -7,16 +7,21 @@ function save() {
     localStorage.setItem('name', fieldValue);
     var fieldValue2 = document.getElementById('nwphnid').value;
     localStorage.setItem('phone', fieldValue2);
-
     }
-
 
 
 function load() {
     var storedValue = localStorage.getItem('name');
     var storedValue2 = localStorage.getItem('phone');
-    if (storedValue || storedValue2) {
+    if (storedValue) {
         document.getElementById('nwnmid').value = storedValue;
         document.getElementById('nwphnid').value = storedValue2;
-                    }
+        }
+}
+
+function disappear() {
+    document.getElementById('nwnmid').value = '';
+    localStorage.setItem('name', '')
+    document.getElementById('nwphnid').value = '';
+    localStorage.setItem('phone', '')
     }
