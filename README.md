@@ -4,18 +4,18 @@ Can find a python/ruby webpage to translate to javascript.
 Translating will help me understand bright md software stack.
 Asking lots of questions not feasible via email without meeting folks and setting the right tone.
 
-Tools
-JSfiddle to familiarize self with web application structure
--showed that javascript, html, and css needed
-Epicodus showed how to link files and run website locally
-Google drive to host page
 
-Github for tracking changes.
+
 
 todo:
-learn branching to experiment with angular
+do in page evaluations with angular
+-store inputs to local variables
 stuff element id's into the html so that they can be manipulated in an automated way.
+
+extra to do's
+learn branching to experiment with angular
 review basic markdown for readme
+learn bootstrap to make styling css easier
 
 get shareable link
 www.googledrive.com/host/0B0PVE1JTVFgOcXcxQ055T3pfS3M/
@@ -33,3 +33,8 @@ Add another input box. http://jsfiddle.net/jaredwilli/tZPg4/4/
 How to host javascript or css files on google drive. http://www.komku.org/2013/08/how-to-host-javascript-or-css-files-on-google-drive.html
 download java sdk http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html
 
+Tools:
+JSfiddle to familiarize self with web application structure.
+Google drive to host page.
+Github for tracking changes.
+Terminal for running protractor test.
