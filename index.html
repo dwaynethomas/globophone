@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html ng-app="globophone">
 	<head>
-      <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0/angular.min.js"></script>
   		<link href= "css/style.css" rel="stylesheet" type="text/css">
   		<title>Welcome to Globophone!</title>
 	</head>
@@ -21,12 +20,13 @@
 
 <h5>
     <p>
-        <label for="nwphn"><input type="text" id="nwphoneid" size="20" name="nwphnname" value="" placeholder="Input Value" /></label>
+        <label for="nwphn"><input type="text" id="nwphnid" size="20" name="nwphnname" value="" placeholder="Input Value" /></label>
     </p>
 </h5>
 
-<button ng-click="dodelete()" id="deletebutton" class="btn">Delete</button>  
-<button ng-click="docheck(), dosave()" id="gobutton" class="btn">Save</button> 
+<button href="javascript:flush_values()" ng-click="dodelete()" id="deletebutton" class="btn">Delete</button>  
+
+<input type="button" value="save" onclick="save()" /> 
  <!-- State 2-->
  <h2>Saved Jane Austin</h2>
 <!-- Buttons--> 

@@ -8,6 +8,7 @@ Asking lots of questions not feasible via email without meeting folks and settin
 
 
 todo:
+-clear inputs with delete button
 do in page evaluations with angular
 -store inputs to local variables
 stuff element id's into the html so that they can be manipulated in an automated way.
@@ -25,6 +26,7 @@ link href= "https://googledrive.com/host/0B0PVE1JTVFgOfnFvN01wbDdvQUVUZmNEYWxZcH
 # feedback on exercise
 
 Sources:
+Simple HTML5 localStorage Example https://www.youtube.com/watch?v=Jc_Yycz7MEc
 Host webpages with Drive. https://support.google.com/drive/answer/2881970?hl=en#
 Organizing files. http://www.epicodus.com/students.html
 Commenting tags. http://www.w3schools.com/tags/tag_comment.asp
