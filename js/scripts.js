@@ -10,11 +10,13 @@ function save() {
 
     }
 
+
+
 function load() {
     var storedValue = localStorage.getItem('name');
     var storedValue2 = localStorage.getItem('phone');
     if (storedValue || storedValue2) {
         document.getElementById('nwnmid').value = storedValue;
-        document.getElementById('nwphnid').value = storedValue;
+        document.getElementById('nwphnid').value = storedValue2;
                     }
     }
