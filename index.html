@@ -23,13 +23,14 @@
         <label for="nwphn"><input type="text" id="nwphnid" size="20" name="nwphnname" value="" placeholder="Input Value" /></label>
     </p>
 </h5>
-
-<input type="button" value="save" onclick="save()" /> 
-<input type="button" value="delete" onclick="disappear()" /> 
-
  <!-- State 2-->
- <h2>Saved Jane Austin</h2>
+<div id="savedDiv"  style="display:none;"> Saved</div>
+<input type="button" value="save" onclick="save(), showDiv()" /> 
+
+
+
 <!-- Buttons--> 
+<input type="button" value="delete" onclick="disappear()" /> 
 <button ng-click="goback()" id="backbutton" class="btn">Go Back</button>   		<script src="js/jquery-1.11.2.js"></script>
     	<script src="js/scripts.js"></script>  
 </body>

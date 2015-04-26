@@ -9,7 +9,6 @@ function save() {
     localStorage.setItem('phone', fieldValue2);
     }
 
-
 function load() {
     var storedValue = localStorage.getItem('name');
     var storedValue2 = localStorage.getItem('phone');
@@ -25,3 +24,7 @@ function disappear() {
     document.getElementById('nwphnid').value = '';
     localStorage.setItem('phone', '')
     }
+
+function showDiv() {
+   document.getElementById('savedDiv').style.display = "block";
+}
