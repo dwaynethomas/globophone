@@ -27,4 +27,10 @@ function disappear() {
 
 function showDiv() {
    document.getElementById('savedDiv').style.display = "block";
+    document.getElementById('delbutton').style.display = "inline";
+
 }
+
+$("#show").on("click", function() {
+    $(".k-grid-delete", "#grid").show();
+});
