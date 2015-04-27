@@ -27,10 +27,10 @@ Sources:
 
 Tools:
 ------
-JSfiddle to familiarize self with web application structure.
-Google drive to host page.
-Github for tracking changes.
-Terminal for running protractor test.
+* JSfiddle to familiarize self with web application structure.
+* Google drive to host page.
+* Github for tracking changes.
+* Terminal for running protractor test.
 
 Extra to do's:
 -------------
