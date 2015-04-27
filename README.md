@@ -4,7 +4,7 @@ Globophone
 
 About
 -----
-This test will help me handle development of a complete (very small) application.
+This exercise shows how I handle development of a complete (very small) full stack application.
 
 Todo:
 * 1. Do in page evaluations with angular
