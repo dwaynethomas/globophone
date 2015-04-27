@@ -1,18 +1,19 @@
 Globophone
 ================
 * Author: Dwayne Thomas
-Assumptions:
-Asking lots of questions not feasible via email without meeting team and setting the right tone.
-Using internet resources should be fine as long as it helps me learn the exercise.
+
+About
+-----
+This test will help me handle development of a complete (very small) application.
 
 Todo:
-1. Do in page evaluations with angular
--store inputs to local variables
+* 1. Do in page evaluations with angular
 
 Hosted webpage:
 https://www.googledrive.com/host/0B0PVE1JTVFgOcXcxQ055T3pfS3M/
 
 Sources:
+-------
 Simple HTML5 localStorage Example https://www.youtube.com/watch?v=Jc_Yycz7MEc
 Host webpages with Drive. https://support.google.com/drive/answer/2881970?hl=en#
 Organizing files. http://www.epicodus.com/students.html
@@ -25,12 +26,13 @@ Conditional display of html element forms http://stackoverflow.com/questions/396
 Location reload() Methodhttp://www.w3schools.com/jsref/met_loc_reload.asp
 
 Tools:
+------
 JSfiddle to familiarize self with web application structure.
 Google drive to host page.
 Github for tracking changes.
 Terminal for running protractor test.
 
-Extra to do's
-learn branching to experiment with angular
-review basic markdown for readme
-learn bootstrap to make styling css easier
+Extra to do's:
+-------------
+Branch to experiment with angular.
+Bootstrap to make styling css simpler.
