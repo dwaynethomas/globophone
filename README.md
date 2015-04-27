@@ -1,4 +1,6 @@
-# globophone
+Globophone
+================
+* Author: Dwayne Thomas
 Assumptions:
 Asking lots of questions not feasible via email without meeting team and setting the right tone.
 Using internet resources should be fine as long as it helps me learn the exercise.
