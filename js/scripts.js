@@ -3,8 +3,7 @@
 //});
 
 function save() { 
-    console.log(document.getElementById('nwnmid').value + document.getElementById('nwphnid').value)
-    if (document.getElementById('nwnmid').value  != ''){
+    if (document.getElementById('nwnmid').value + document.getElementById('nwphnid').value  != ''){
         var fieldValue = document.getElementById('nwnmid').value;
         localStorage.setItem('name', fieldValue);
         var fieldValue2 = document.getElementById('nwphnid').value;
@@ -30,8 +29,11 @@ function disappear() {
     }
 
 function showDiv() {
+    if (document.getElementById('nwnmid').value + document.getElementById('nwphnid').value  != ''){
    document.getElementById('savedDiv').style.display = "block";
     document.getElementById('delbutton').style.display = "inline";
+    }
+    else return;
 
 }
 
