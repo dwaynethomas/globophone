@@ -1,6 +1,6 @@
 Globophone
 ================
-** Author: Dwayne Thomas
+** Author: Dwayne Thomas**
 
 About
 -----
