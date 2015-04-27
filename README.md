@@ -1,13 +1,13 @@
 Globophone
 ================
-* Author: Dwayne Thomas
+** Author: Dwayne Thomas
 
 About
 -----
 This exercise shows how I handle development of a complete (very small) full stack application.
 
 Todo:
-* 1. Do in page evaluations with angular
+In-page evaluations with angular.
 
 Hosted webpage:
 https://www.googledrive.com/host/0B0PVE1JTVFgOcXcxQ055T3pfS3M/
