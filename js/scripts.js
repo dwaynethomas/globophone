@@ -2,11 +2,15 @@
 //  alert("This is a button.");
 //});
 
-function save() {
-    var fieldValue = document.getElementById('nwnmid').value;
-    localStorage.setItem('name', fieldValue);
-    var fieldValue2 = document.getElementById('nwphnid').value;
-    localStorage.setItem('phone', fieldValue2);
+function save() { 
+    console.log(document.getElementById('nwnmid').value + document.getElementById('nwphnid').value)
+    if (document.getElementById('nwnmid').value  != ''){
+        var fieldValue = document.getElementById('nwnmid').value;
+        localStorage.setItem('name', fieldValue);
+        var fieldValue2 = document.getElementById('nwphnid').value;
+        localStorage.setItem('phone', fieldValue2);
+        }
+    else return;
     }
 
 function load() {
@@ -31,6 +35,3 @@ function showDiv() {
 
 }
 
-$("#show").on("click", function() {
-    $(".k-grid-delete", "#grid").show();
-});
