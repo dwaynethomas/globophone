@@ -28,10 +28,11 @@ function disappear() {
     localStorage.setItem('phone', '')
     }
 
-function showDiv() {
+function respondDiv() {
     if (document.getElementById('nwnmid').value + document.getElementById('nwphnid').value  != ''){
-   document.getElementById('savedDiv').style.display = "block";
-    document.getElementById('delbutton').style.display = "inline";
+        document.getElementById('nameinput').style.display = "none"; 
+        document.getElementById('savedDiv').style.display = "block";
+        document.getElementById('delbutton').style.display = "inline";
     }
     else return;
 
