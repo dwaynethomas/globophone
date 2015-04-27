@@ -34,7 +34,7 @@ function respondDiv() {
         document.getElementById('savedDiv').style.display = "block";
         document.getElementById('delbutton').style.display = "inline";
     }
-    else return;
+    else document.getElementById('notsavedDiv').style.display = "inline";
 
 }
 
