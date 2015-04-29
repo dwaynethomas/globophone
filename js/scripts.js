@@ -1,7 +1,3 @@
-//jQuery("button").click(function() {
-//  alert("This is a button.");
-//});
-
 function save() { 
     if (document.getElementById('nwnmid').value + document.getElementById('nwphnid').value  != ''){
         var fieldValue = document.getElementById('nwnmid').value;
@@ -37,4 +33,7 @@ function respondDiv() {
     else document.getElementById('notsavedDiv').style.display = "inline";
 
 }
+
+
+
 
