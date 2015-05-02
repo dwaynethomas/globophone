@@ -34,6 +34,20 @@ function respondDiv() {
 
 }
 
-
+$("#prsnfrm").validate({
+  rules: {
+    username: {
+      required: true,
+      minLength: 2,
+      remote: "users.php"
+    }
+  },
+  messages: {
+    username: {
+      required: "Enter your username",
+      minLength: "At least 2 characters are necessary",
+    }
+  }
+});
 
 

@@ -7,26 +7,27 @@
 <body onload="load()">
 	<h1>Welcome to Globophone!</h1>
  <!-- State 1-->
+<form class="prsform" id="personForm" method="get" action="">  
+          <h2>Save your info:</h2>
+           <!-- Buttons--> 
+           <div id="nameinput" style="display:inline;">
+           <h6><a href="#" id="addNm">Save your Name (Ex. First Last)</a></h6>
+          <h5>
+              <p>
+                  <label for="nwnm"><input type="text" id="nwnmid" size="20" name="nwnmname" value="" placeholder="Input Value" /></label>
+              </p>
+          </h5>
 
-<div id="nameinput" style="display:inline;">
-<h2>Save your info:</h2>
- <!-- Buttons--> 
- <h6><a href="#" id="addNm">Save your Name (Ex. First Last)</a></h6>
-<h5>
-    <p>
-        <label for="nwnm"><input type="text" id="nwnmid" size="20" name="nwnmname" value="" placeholder="Input Value" /></label>
-    </p>
-</h5>
 
+           <h6><a href="#" id="addPhn">Save your Phone Number (Ex. 555 5555)</a></h6>
 
- <h6><a href="#" id="addPhn">Save your Phone Number (Ex. 555 5555)</a></h6>
-
-<h5>
-    <p>
-        <label for="nwphn"><input type="text" id="nwphnid" size="20" name="nwphnname" value="" placeholder="Input Value" /></label>
-    </p>
-</h5>
-</div>
+          <h5>
+              <p>
+                  <label for="nwphn"><input type="text" id="nwphnid" size="20" name="nwphnname" value="" placeholder="Input Value" /></label>
+              </p>
+          </h5>
+          </div>
+</form>
  <!-- State 2-->
 <div id="savedDiv"  style="display:none;"> Saved</div>
 <input type="button" value="save" onclick="save(), respondDiv()" /> 
@@ -43,6 +44,7 @@
 
 
 <script src="js/jquery-1.11.2.js"></script>
-    	<script src="js/scripts.js"></script>  
+    	<script src="js/scripts.js"></script> 
+      <script src="js/validate.js"></script> 
 </body>
 </html>
