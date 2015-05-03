@@ -1,9 +1,13 @@
+
+
 function save() { 
     if (document.getElementById('nwnmid').value + document.getElementById('nwphnid').value  != ''){
         var fieldValue = document.getElementById('nwnmid').value;
         localStorage.setItem('name', fieldValue);
         var fieldValue2 = document.getElementById('nwphnid').value;
         localStorage.setItem('phone', fieldValue2);
+        $(".nwnmid").text(fieldValue);
+        $(".nwphnid").text(fieldValue2);
         }
     else return;
     }
@@ -34,20 +38,12 @@ function respondDiv() {
 
 }
 
-$("#prsnfrm").validate({
-  rules: {
-    username: {
-      required: true,
-      minLength: 2,
-      remote: "users.php"
-    }
-  },
-  messages: {
-    username: {
-      required: "Enter your username",
-      minLength: "At least 2 characters are necessary",
-    }
-  }
+
+$(document).ready(function() {
+  $("#personForm").submit(function(event) {
+    $(".nwnmid").text(fieldValue);
+    $("#savedDiv").show();
+
+    event.preventDefault();
+  });
 });
-
-
