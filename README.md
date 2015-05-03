@@ -4,7 +4,7 @@ Author: Dwayne Thomas
 
 About
 -----
-This exercise shows how I handle development of a complete (very small) full stack application.
+This exercise shows how I handle development of a complete (very small) full stack application based on a wireframe.
 
 Todo:
 In-page evaluations with angular.
@@ -14,7 +14,7 @@ https://www.googledrive.com/host/0B0PVE1JTVFgOcXcxQ055T3pfS3M/
 
 Sources:
 -------
-*Jquery validation https://github.com/jzaefferer/jquery-validation/blob/master/demo/index.html
+* Showing messages with user input. https://www.learnhowtoprogram.com/lessons/forms
 * Simple HTML5 localStorage Example https://www.youtube.com/watch?v=Jc_Yycz7MEc
 * Host webpages with Drive. https://support.google.com/drive/answer/2881970?hl=en#
 * Organizing files. http://www.epicodus.com/students.html

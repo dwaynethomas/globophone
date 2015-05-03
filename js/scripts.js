@@ -7,6 +7,7 @@ function save() {
         localStorage.setItem('name', fieldValue);
         var fieldValue2 = document.getElementById('nwphnid').value;
         localStorage.setItem('phone', fieldValue2);
+        document.getElementById('notsavedDiv').style.display = "none"; 
         $(".nwnmid").text(fieldValue);
         $(".nwphnid").text(fieldValue2);
         }
