@@ -2,7 +2,7 @@
 
 function save() { 
     check()
-    if (document.getElementById('nwnmid').value != '')
+    if ((document.getElementById('nwnmid').value != '') && (document.getElementById('nwphnid').value.length != 10))
     {
         document.getElementById('savebutton').style.display = "none"; 
         var fieldValue = document.getElementById('nwnmid').value;
@@ -12,9 +12,10 @@ function save() {
         document.getElementById('notsavedDiv').style.display = "none"; 
         $(".nwnmid").text(fieldValue);
         $(".nwphnid").text(fieldValue2);
-        }
-    else respondDiv();
+        hassavedDiv();
     }
+    else document.getElementById('notsavedDiv').style.display = "inline";
+}
 
 function load() {
     var storedValue = localStorage.getItem('name');
@@ -33,14 +34,12 @@ function disappear() {
     localStorage.setItem('phone', '')
     }
 
-function respondDiv() {
+function hassavedDiv() {
     if (document.getElementById('nwnmid').value != ''){
         document.getElementById('nameinput').style.display = "none"; 
         document.getElementById('savedDiv').style.display = "block";
         document.getElementById('delbutton').style.display = "inline";
     }
-    else document.getElementById('notsavedDiv').style.display = "inline";
-
 }
 
 function check() {
