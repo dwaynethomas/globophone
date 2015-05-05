@@ -1,7 +1,9 @@
 
 
 function save() { 
-    if (document.getElementById('nwnmid').value + document.getElementById('nwphnid').value  != ''){
+    check()
+    if (document.getElementById('nwnmid').value + document.getElementById('nwphnid').value  != '')
+    {
         document.getElementById('savebutton').style.display = "none"; 
         var fieldValue = document.getElementById('nwnmid').value;
         localStorage.setItem('name', fieldValue);
@@ -20,6 +22,7 @@ function load() {
     if (storedValue) {
         document.getElementById('nwnmid').value = storedValue;
         document.getElementById('nwphnid').value = storedValue2;
+        document.getElementById('delbutton').style.display = "inline";        
         }
 }
 
@@ -38,5 +41,17 @@ function respondDiv() {
     }
     else document.getElementById('notsavedDiv').style.display = "inline";
 
+}
+
+function check() {
+
+    // // Get the Login Name value and trim it
+    // var name = $.trim($('#log').val());
+
+    // // Check if empty of not
+    // if (name === '') {
+    //     alert('Text-field is empty.');
+    //     return false;
+    // }
 }
 
