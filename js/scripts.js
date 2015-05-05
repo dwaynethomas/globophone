@@ -2,7 +2,7 @@
 
 function save() { 
     check()
-    if (document.getElementById('nwnmid').value + document.getElementById('nwphnid').value  != '')
+    if (document.getElementById('nwnmid').value != '')
     {
         document.getElementById('savebutton').style.display = "none"; 
         var fieldValue = document.getElementById('nwnmid').value;
@@ -13,7 +13,7 @@ function save() {
         $(".nwnmid").text(fieldValue);
         $(".nwphnid").text(fieldValue2);
         }
-    else return;
+    else respondDiv();
     }
 
 function load() {
@@ -34,7 +34,7 @@ function disappear() {
     }
 
 function respondDiv() {
-    if (document.getElementById('nwnmid').value + document.getElementById('nwphnid').value  != ''){
+    if (document.getElementById('nwnmid').value != ''){
         document.getElementById('nameinput').style.display = "none"; 
         document.getElementById('savedDiv').style.display = "block";
         document.getElementById('delbutton').style.display = "inline";
