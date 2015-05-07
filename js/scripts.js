@@ -2,7 +2,8 @@
 
 function save() { 
     check()
-    if ((document.getElementById('nwnmid').value != '') && (document.getElementById('nwphnid').value.length != 10))
+    if ((document.getElementById('nwnmid').value != '') && 
+        ((document.getElementById('nwphnid').value.length == 10) || (document.getElementById('nwphnid').value.length == 11)))
     {
         document.getElementById('savebutton').style.display = "none"; 
         var fieldValue = document.getElementById('nwnmid').value;
